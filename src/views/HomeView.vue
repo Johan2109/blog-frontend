@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold mb-6 text-center">Blog</h1>
+    <h1 class="text-3xl font-bold mb-6 text-center">Prueba Blog Front-End</h1>
     <div v-if="loading" class="text-center text-gray-500">Cargando...</div>
     <div v-else-if="error" class="text-center text-red-500">{{ error }}</div>
     <div v-else>
